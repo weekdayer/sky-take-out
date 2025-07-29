@@ -12,6 +12,7 @@ public interface EmployeeMapper {
      * @param username
      * @return
      */
+    // 简单sql用注解，复杂就上xml
     @Select("select * from employee where username = #{username}")
     Employee getByUsername(String username);
 

@@ -11,6 +11,7 @@ import java.io.Serializable;
 
 @Data
 @Builder
+//加入builder注解通过EmployeeLoginVO.builder()来构建对象
 @NoArgsConstructor
 @AllArgsConstructor
 @ApiModel(description = "员工登录返回的数据格式")
