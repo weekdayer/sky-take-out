@@ -148,7 +148,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     /**
-     *
+     * 更新员工信息
      * @param employeeDTO
      */
     public void update(EmployeeDTO employeeDTO) {
