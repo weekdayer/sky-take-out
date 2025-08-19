@@ -14,12 +14,5 @@ public class SkyApplication {
     public static void main(String[] args) {
         SpringApplication.run(SkyApplication.class, args);
         log.info("server started");
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("name");
-//        String name = scanner.nextLine();
-//        System.out.println("age");
-//
-//        String age = scanner.nextLine();
-//        System.out.println(name + age);
     }
 }
